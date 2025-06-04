@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Iinclude
 
-SRC = main.c src/glad.c engine/*.c engine/render/*.c
+SRC = main.c src/glad.c engine/*.c engine/render/*.c engine/io/*.c
 
 TARGET = game
 
